@@ -16,19 +16,20 @@ let resumeData = {
       url: "https://github.com/Baltaguirre",
       className: "fa fa-github",
     },
-    {
-      name: "skype",
-      url: "http://twitter.com/rbhatia46",
-      className: "fa fa-twitter",
-    },
+    // {
+    //   name: "skype",
+    //   url: "http://twitter.com/rbhatia46",
+    //   className: "fa fa-twitter",
+    // },
   ],
   aboutme: [
-    "▲ Problem solver, proactive, go-getter.",
-    "▲ Professional, empathic, team player.",
-    "▲ 2+ years of professional experience.",
-    "▲ Mid-Level experience in the front-end (React) and back-end (Node, Express, PostgreSQL, Mongo).",
-    " ▲ Ability to create clean, modern, testable, well-documented code.",
-    "▲ English fluency, verbal and written (C2 Proficient).",
+    `      Problem solver, proactive, go-getter.`,
+    `      Professional, empathic, team player.`,
+    " 2+ years of professional experience.",
+    " Mid-Level experience in the front-end (React) and back-end (Node, Express, PostgreSQL, Mongo).",
+    "  Ability to create clean, modern, testable, well-documented code.",
+    " English fluency, verbal and written (C2 Proficient).", 
+    "Spanish native speaker."
   ],
 
   address: "Argentina",
@@ -39,9 +40,9 @@ let resumeData = {
       specialization: "Full-Stack Developer",
       MonthOfPassing: "Sep",
       YearOfPassing: "2021",
-      Achievements: `Bootcamp de desarrollo full stack | 
+      Achievements: `Full Stack Development Bootcamp | 
         
-        +50 hs de código por semana. 
+        +50 hs of code per week. 
        
         
         - HTML 
@@ -56,28 +57,26 @@ let resumeData = {
         - Postman`,
     },
     {
-      UniversityName: "Universidad Nacional de Córdoba",
-      specialization: "Lic. en Psicología",
+      UniversityName: "National University of Cordoba",
+      specialization: "Degree in Psychology",
       MonthOfPassing: "Dic",
       YearOfPassing: "2015",
       Achievements:
-        "Primer y segundo año de la Licenciatura en Psicología completos",
+        "Completed first and second year of the Bachelor's Degree in Psychology",
     },
     {
-      UniversityName: "Colegio Universitario IES",
-      specialization: "Técnico en Turismo",
+      UniversityName: "IES University College",
+      specialization: "Tourism Technician",
       MonthOfPassing: "Mar",
       YearOfPassing: "2011",
-      Achievements:
-        "Durante el primer año de la Tecnicatura en Turismo cursé materias relacionadas a la administración de organizaciones abocadas a lo turístico tales como: Organización Empresaria y Mercados Turísticos en el primer semestre y Recursos Naturales y Servicios Turísticos en el segundo, as{i como una Práctica Profesionalizante. En cuanto a idiomas cursé las materias de Inglés I y II y Portugués I y II, y además la materia Recursos Informáticos.",
+      Achievements: `During the first year of the Technician in Tourism I studied subjects related to the administration of organizations focused on tourism such as: Business Organization and Tourism Markets in the first semester and Natural Resources and Tourist Services in the second, as well as a Professional Internship . As for languages, I studied the subjects of English I and II and Portuguese I and II, and also the subject Computer Resources.`,
     },
     {
-      UniversityName: "La Metro - Escuela de Cine y Televisión",
-      specialization: "Técnico en Cine y Televisión",
+      UniversityName: "La Metro - Film and Television School",
+      specialization: "Film and Television Technician",
       MonthOfPassing: "Dec",
       YearOfPassing: "2008",
-      Achievements:
-        "Cursé los dos primeros años de la tecnicatura en Cine, Video y Televisión, donde asistí y completé clases de asignaturas tales como Dirección, Iluminación, Guión, Cámara, Producción, Sonido, Edición e Historia del Cine. Participé en la creación y puesta en escena de diversos trabajos prácticos así como de dos trabajos finales (cortometraje de ficción y programa televisivo) como asistente de dirección en el primero y como productor en el segundo.",
+      Achievements: `I attended the first two years of the Technician in Film, Video and Television, where I attended and completed classes on subjects such as Direction, Lighting, Script, Camera, Production, Sound, Editing and Film History. I participated in the creation and staging of various practical works as well as two final works (fiction short film and television program) as an assistant director in the first and as a producer in the second.`,
     },
   ],
   work: [
@@ -86,24 +85,31 @@ let resumeData = {
       specialization: "Full-Stack Developer",
       MonthOfLeaving: "Actual",
       YearOfLeaving: "",
-      Achievements:
-        "Actualmente me encuentro desempeñando el cargo de Full-Stack Developer en Luca, y como parte de mis responsabilidades, me encargo del mantenimiento y desarrollo de nuevos features para la plataforma, así como de optimizar y refactorizar el código existente con el objetivo de lograr una base de código sólida, escalable y limpia. En este rol, he tenido la oportunidad de aplicar mis habilidades técnicas para desarrollar soluciones creativas y eficientes que satisfagan las necesidades de nuestros usuarios. Además, he trabajado de cerca con mi equipo para asegurarme de que los proyectos se entreguen a tiempo y de que se cumplan los estándares de calidad. También he tenido la oportunidad de aplicar mis habilidades de resolución de problemas y pensamiento crítico para identificar y resolver problemas de manera rápida y efectiva, lo que me ha permitido contribuir de manera significativa al éxito de la plataforma. En resumen, trabajar en Luca ha sido una experiencia enriquecedora que me ha permitido seguir creciendo como desarrollador y aplicar mis habilidades en un ambiente desafiante y gratificante.",
+      Achievements: `As a Full Stack Web Developer at Luca, the leading E-Learning platform for primary schools based in Mexico, I worked directly on the development of Luca version 2.0 from scratch.
+      In addition, we migrated the database from the previous version and developed the entire back-end system from scratch, with a server built on Node.js, Express and Apollo GraphQL, using Prisma as ORM and PostgreSQL as a data base engine.
+      For the front-end, we use React and Apollo Client.
+      Currently i'm working as a Full-Stack Developer at Luca, and as part of my responsibilities, I am in charge of maintaining and developing new features for the platform, as well as optimizing and refactoring existing code with the aim of achieving a basic solid, scalable and clean code.
+      In this role, i apply my technical skills to develop creative and efficient solutions that meet the needs of our users. Additionally, i work closely with my team to ensure projects are delivered on time and quality standards are met. 
+      I have also the opportunity to apply my problem solving and critical thinking skills to identify and solve problems quickly and effectively, which has allowed me to significantly contribute to the success of the platform. 
+      In short, working at Luca has been (and it is) an enriching experience that has allowed me to continue growing as a developer and apply my skills in a challenging and rewarding environment.`,
     },
     {
       CompanyName: "Reanswer",
       specialization: "Full-Stack Developer",
       MonthOfLeaving: "May",
       YearOfLeaving: "2022",
-      Achievements:
-        "Durante mi experiencia en Reanswer, una software factory argentina, formé parte del equipo de desarrollo de una plataforma de fidelización de clientes. En este proyecto, trabajamos bajo la metodología ágil Scrum y aplicamos los principios de Clean Code y Clean Architecture para desarrollar soluciones eficientes y escalables. Para el front-end, utilicé React Native y React JS, mientras que para el back-end, trabajé con MoleculerJS y Node JS, en un ambiente de microservicios y MongoDB como base de datos. Fue una oportunidad única de aplicar mis habilidades técnicas y trabajar en equipo para lograr un proyecto exitoso y satisfacer las necesidades de los usuarios.",
+      Achievements: `During my experience at Reanswer, an Argentine software factory, I was part of the development team for a customer loyalty platform. 
+        In this project, we work under the agile Scrum methodology and apply the principles of Clean Code and Clean Architecture to develop efficient and scalable solutions. 
+       We used React Native and React JS for the front-end, while for the back-end, we worked with MoleculerJS and Node JS, in a microservices environment and MongoDB as database. 
+        It was a unique opportunity to apply my technical skills and work as a team to achieve a successful project and meet the needs of users.`,
     },
     {
       CompanyName: "Digital Mottus",
       specialization: "Trainee Front-End Developer",
       MonthOfLeaving: "Nov",
       YearOfLeaving: "2021",
-      Achievements:
-        "Durante mi primer experiencia como trainee en Digital Mottus, una startup con sede en Córdoba, tuve la oportunidad de trabajar en un entorno profesional. Colaboré en el desarrollo Front-End de una plataforma para la administración de stock de tiendas comerciales, formando parte de un proyecto emocionante que me permitió aplicar y mejorar mis habilidades técnicas.",
+      Achievements: `During my first experience as a trainee at Digital Mottus, a startup based in Córdoba, I had the opportunity to work in a professional environment. 
+        I collaborated in the Front-End development of a platform for stock management of commercial stores, being part of an exciting project that allowed me to apply and improve my technical skills.`,
     },
   ],
   skillsDescription: "",
@@ -135,24 +141,28 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: "project1",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "LoginForm React",
+      description: "A Login Form made with react, with validations & show/hide password toggle",
+      imgurl: "loginForm",
+      slideCount: 5
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg",
+      name: "headerBackground",
+      description: "headerBackground",
+      imgurl: "header-background",
+      slideCount: 3
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project2.png",
+      name: "OIP",
+      description: "OIP",
+      imgurl: "OIP",
+      slideCount: 4
     },
     {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "illustration",
+      description: "illustration",
+      imgurl: "illustration_3-01",
+      slideCount: 3
     },
   ],
   testimonials: [

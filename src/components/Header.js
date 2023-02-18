@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import image1 from "../utils/img/mars.jpg";
-import image2 from "../utils/img/OIP.jpg";
-import image3 from "../utils/img/illustration_3-01.jpg";
-import image4 from "../utils/img/header-background.jpg";
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;

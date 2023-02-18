@@ -33,16 +33,21 @@ body {
 header {
   position: relative;
   height: 800px;
+  
   width: 100%;
   background-image: url(../images/atardece.jpg); /* set the first background image */
   background-size: cover !important; /* set background size to cover the entire header */
+
   -webkit-background-size: cover !important;
   background-repeat: no-repeat; /* disable background image repeating */
   animation: slideshow 22s infinite; /* animate the slideshow with 16 seconds duration */
   overflow: hidden;
   text-align: center;
+  /* position: relative; */
 }
 @keyframes slideshow {
+
+  
   26% {
     background-image: url(../images/header-background.jpg); /* stay at the third image */
   }
@@ -257,7 +262,7 @@ ul#nav li.current a {
 }
 #about p {
   line-height: 30px;
-  color: #fff;
+  color: #7a7a7a;
 }
 #about .profile-pic {
   position: relative;
@@ -404,12 +409,12 @@ ul#nav li.current a {
   -webkit-animation: react-native 2s ease;
 }
 .postgresql {
-  width: 78%;
+  width: 50%;
   -moz-animation: postgresql 2s ease;
   -webkit-animation: postgresql 2s ease;
 }
 .css {
-  width: 70%;
+  width: 40%;
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
 }
@@ -423,26 +428,8 @@ ul#nav li.current a {
   -moz-animation: nodejs 2s ease;
   -webkit-animation: nodejs 2s ease;
 }
-.express {
-  width: 85%;
-  -moz-animation: express 2s ease;
-  -webkit-animation: express 2s ease;
-}
-.graphql {
-  width: 70%;
-  -moz-animation: graphql 2s ease;
-  -webkit-animation: graphql 2s ease;
-}
 
 @-moz-keyframes reactjs {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 85%;
-  }
-}
-@-moz-keyframes react-native {
   0% {
     width: 0px;
   }
@@ -450,12 +437,20 @@ ul#nav li.current a {
     width: 75%;
   }
 }
+@-moz-keyframes react-native {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 55%;
+  }
+}
 @-moz-keyframes postgresql {
   0% {
     width: 0px;
   }
   100% {
-    width: 78%;
+    width: 50%;
   }
 }
 @-moz-keyframes css {
@@ -463,7 +458,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 40%;
   }
 }
 @-moz-keyframes html5 {
@@ -471,26 +466,10 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 60%;
   }
 }
 @-moz-keyframes nodejs {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 80%;
-  }
-}
-@-moz-keyframes express {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 85%;
-  }
-}
-@-moz-keyframes graphql {
   0% {
     width: 0px;
   }
@@ -520,7 +499,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 78%;
+    width: 50%;
   }
 }
 @-webkit-keyframes css {
@@ -528,7 +507,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 40%;
   }
 }
 @-webkit-keyframes html5 {
@@ -547,22 +526,6 @@ ul#nav li.current a {
     width: 70%;
   }
 }
-@-webkit-keyframes express {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 85%;
-  }
-}
-@-webkit-keyframes graphql {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -572,7 +535,6 @@ ul#nav li.current a {
   background: #ebeeee;
   padding-top: 90px;
   padding-bottom: 60px;
- 
 }
 #portfolio h1 {
   font: 15px/24px "opensans-semibold", sans-serif;
@@ -586,7 +548,6 @@ ul#nav li.current a {
 /* Portfolio Content */
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
-  
 }
 .portfolio-item .item-wrap {
   background: #fff;
@@ -677,7 +638,7 @@ ul#nav li.current a {
 
 /* popup modal */
 .popup-modal {
-  max-height: 550px;
+  max-width: 550px;
   background: #fff;
   position: relative;
   margin: 0 auto;
@@ -688,16 +649,16 @@ ul#nav li.current a {
 .popup-modal .description-box h4 {
   font: 15px/24px "opensans-bold", sans-serif;
   margin-bottom: 12px;
-  color: #18c088;
+  color: #111;
 }
 .popup-modal .description-box p {
   font: 14px/24px "opensans-regular", sans-serif;
-  color: #313ab8;
+  color: #a1a1a1;
   margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
   font: 11px/21px "opensans-light", sans-serif;
-  color: #892ead;
+  color: #a1a1a1;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: block;
@@ -724,11 +685,7 @@ ul#nav li.current a {
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;
 }
-.slider {
-  display: flex;
-  flex-direction: row;
 
-}
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 
