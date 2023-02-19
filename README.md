@@ -5,6 +5,7 @@ A custom version of ![rbathia46's React Portfolio](https://github.com/rbhatia46/
 
 ## Preview
 ![Preview](https://i.ibb.co/swnBjBB/Captura-de-pantalla-2023-02-18-222231.jpg)
+![](https://i.ibb.co/gRbpSfj/Captura-de-pantalla-2023-02-18-222539.jpg[/img)
 
 ## How to use
 1. Clone/Download the repo.
