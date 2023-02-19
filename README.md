@@ -1,10 +1,10 @@
 
 
 
-A simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
+A custom version of ![rbathia46's React Portfolio](https://github.com/rbhatia46/React-Portfolio). Feel free to clone it & make ur own!!
 
 ## Preview
-![Preview]()
+![Preview](https://ibb.co/4TzQWQQ)
 
 ## How to use
 1. Clone/Download the repo.
