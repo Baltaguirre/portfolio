@@ -4,7 +4,7 @@
 A custom version of ![rbathia46's React Portfolio](https://github.com/rbhatia46/React-Portfolio). Feel free to clone it & make ur own!!
 
 ## Preview
-![Preview](https://ibb.co/4TzQWQQ)
+![Preview](https://i.ibb.co/swnBjBB/Captura-de-pantalla-2023-02-18-222231.jpg)
 
 ## How to use
 1. Clone/Download the repo.
