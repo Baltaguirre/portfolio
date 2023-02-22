@@ -164,6 +164,42 @@ let resumeData = {
       imgurl: "illustration_3-01",
       slideCount: 3
     },
+    // {
+    //   name: "LoginForm React",
+    //   description: "A Login Form made with react, with validations & show/hide password toggle",
+    //   imgurl: "loginForm",
+    //   slideCount: 5
+    // },
+    // {
+    //   name: "headerBackground",
+    //   description: "headerBackground",
+    //   imgurl: "header-background",
+    //   slideCount: 3
+    // },
+    // {
+    //   name: "OIP",
+    //   description: "OIP",
+    //   imgurl: "OIP",
+    //   slideCount: 4
+    // },
+    // {
+    //   name: "illustration",
+    //   description: "illustration",
+    //   imgurl: "illustration_3-01",
+    //   slideCount: 3
+    // },
+    // {
+    //   name: "OIP",
+    //   description: "OIP",
+    //   imgurl: "OIP",
+    //   slideCount: 4
+    // },
+    // {
+    //   name: "illustration",
+    //   description: "illustration",
+    //   imgurl: "illustration_3-01",
+    //   slideCount: 3
+    // },
   ],
   testimonials: [
     {
