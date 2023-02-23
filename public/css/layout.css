@@ -572,7 +572,6 @@ ul#nav li.current a {
   background: #ebeeee;
   padding-top: 90px;
   padding-bottom: 60px;
- 
 }
 #portfolio h1 {
   font: 15px/24px "opensans-semibold", sans-serif;
@@ -586,7 +585,6 @@ ul#nav li.current a {
 /* Portfolio Content */
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
-  
 }
 .portfolio-item .item-wrap {
   background: #fff;
@@ -675,29 +673,45 @@ ul#nav li.current a {
   filter: alpha(opacity=100);
 }
 
+/*modal container*/
+
+.modal-container {
+  background: #1a1717c2;
+  margin-top: 3.5%;
+  padding: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 90%;
+  max-width: 90%;
+}
+
 /* popup modal */
 .popup-modal {
-  max-height: 550px;
-  background: #fff;
+  height: 80%;
+  width: 60%;
+  border: 1px solid darkorange; 
+  background: #1a1717c2;
   position: relative;
-  margin: 0 auto;
+  margin: auto;
 }
 .popup-modal .description-box {
   padding: 12px 36px 18px 36px;
+  margin-top: 5%;
+  /* background: #1a1717c2; */
 }
 .popup-modal .description-box h4 {
   font: 15px/24px "opensans-bold", sans-serif;
   margin-bottom: 12px;
-  color: #18c088;
+  color: whitesmoke;
 }
 .popup-modal .description-box p {
   font: 14px/24px "opensans-regular", sans-serif;
-  color: #313ab8;
+  color: whitesmoke;
   margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
   font: 11px/21px "opensans-light", sans-serif;
-  color: #892ead;
+  color: whitesmoke;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: block;
@@ -724,11 +738,7 @@ ul#nav li.current a {
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;
 }
-.slider {
-  display: flex;
-  flex-direction: row;
 
-}
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 

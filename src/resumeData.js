@@ -138,6 +138,9 @@ let resumeData = {
     {
       skillname: "GraphQL",
     },
+    {
+      skillname: "Docker",
+    },
   ],
   portfolio: [
     {
